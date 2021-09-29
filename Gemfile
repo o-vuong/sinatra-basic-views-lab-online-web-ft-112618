@@ -9,6 +9,6 @@ gem 'pry'
 
 group :test do
   gem 'rspec'
-  gem 'capybara'
+  gem 'capybara', '>= 2.17.0'
   gem 'rack-test'
 end
